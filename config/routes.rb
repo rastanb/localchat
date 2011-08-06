@@ -2,7 +2,7 @@ Localchat::Application.routes.draw do
   resources :posts
 
   get "home/index"
-
+  get "home/pushertest"
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
