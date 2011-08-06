@@ -1,3 +1,5 @@
+require 'pusher'
+
 Localchat::Application.configure do
   # Settings specified here will take precedence over those in config/application.rb
 
@@ -22,5 +24,9 @@ Localchat::Application.configure do
 
   # Only use best-standards-support built into browsers
   config.action_dispatch.best_standards_support = :builtin
+
+  Pusher.app_id = '7421'
+  Pusher.key = 'fcd667d48381ecb50b54'
+  Pusher.secret = '13403ade67a6bf032f13'
 end
 
